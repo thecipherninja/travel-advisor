@@ -7,7 +7,7 @@ import Place from '../components/Place';
 
 export default function Home() {
   return (
-      <Flex>
+      <Flex justifyContent={"center"} alignItems={"center"} width={"100vw"} height={"100vh"} bg={"red"}>
         <Head>
           <title>Travel Advisor</title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
